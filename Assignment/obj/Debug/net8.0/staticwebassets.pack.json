@@ -1,0 +1,2609 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Assignment.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Assignment.c6swtxtuii.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\demo.css.map",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\demo.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\fonts.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\fonts.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\kaiadmin.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\kaiadmin.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\kaiadmin.css.map",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\kaiadmin.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\kaiadmin.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\kaiadmin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\plugins.css.map",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\plugins.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\css\\plugins.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\plugins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\summernote\\summernote.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\summernote\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\summernote\\summernote.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\summernote\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\summernote\\summernote.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\summernote\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\fonts\\summernote\\summernote.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\summernote\\summernote.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\arashmil.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\arashmil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\bg-404.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\bg-404.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\blogpost.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\blogpost.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\chadengle.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\chadengle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example1-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example1.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example10-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example10-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example10.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example11-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example11-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example11.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example12-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example12-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example12.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example2-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example2.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example3-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example3-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example3.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example4-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example4.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example5-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example5-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example5.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example6-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example6-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example6.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example7-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example7-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example7.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example8-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example8-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example8.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example9-300x300.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example9-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\example9.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\example9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\logo.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\logo1.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\logo1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\logo2.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\logo2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\logoinvoice.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\logoinvoice.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product10.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product11.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product12.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product6.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product7.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\examples\\product8.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\examples\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ad.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ad.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ae.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ae.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\af.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\af.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ag.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ag.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ai.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ai.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\al.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\al.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\am.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\am.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\an.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\an.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ao.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ao.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ar.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ar.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\as.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\as.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\at.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\at.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\au.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\au.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\aw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\aw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ax.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ax.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\az.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\az.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ba.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ba.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bb.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bb.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bd.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bd.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\be.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\be.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bf.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bf.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bh.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bh.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bi.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bi.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bj.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bj.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\br.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\br.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bs.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bs.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bt.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bt.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bv.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bv.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\by.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\by.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\bz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\bz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ca.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ca.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\catalonia.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\catalonia.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cc.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cd.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cd.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cf.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cf.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ch.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ch.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ci.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ci.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ck.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ck.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cl.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cl.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\co.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\co.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cs.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cs.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cu.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cv.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cv.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cx.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cx.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cy.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cy.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\cz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\cz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\de.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\de.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\dj.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\dj.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\dk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\dk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\dm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\dm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\do.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\do.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\dz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\dz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ec.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ec.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ee.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\eg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\eg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\eh.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\eh.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\england.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\england.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\er.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\er.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\es.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\es.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\et.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\et.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\europeanunion.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\europeanunion.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\fam.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\fam.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\fi.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\fi.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\fj.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\fj.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\fk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\fk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\fm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\fm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\fo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\fo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\fr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\fr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ga.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ga.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gb.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gb.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gd.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gd.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ge.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ge.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gf.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gf.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gh.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gh.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gi.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gi.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gl.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gl.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gp.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gp.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gq.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gq.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gs.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gs.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gt.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gt.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gu.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\gy.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\gy.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\hk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\hk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\hm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\hm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\hn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\hn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\hr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\hr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ht.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ht.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\hu.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\hu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\id.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\id.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ie.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ie.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\il.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\il.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\in.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\in.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\io.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\io.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\iq.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\iq.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ir.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ir.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\is.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\is.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\it.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\it.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\jm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\jm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\jo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\jo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\jp.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\jp.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ke.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ke.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\kg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\kg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\kh.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\kh.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ki.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ki.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\km.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\km.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\kn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\kn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\kp.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\kp.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\kr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\kr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\kw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\kw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ky.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ky.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\kz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\kz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\la.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\la.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\lb.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\lb.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\lc.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\lc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\li.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\li.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\lk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\lk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\lr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\lr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ls.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ls.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\lt.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\lt.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\lu.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\lu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\lv.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\lv.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ly.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ly.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ma.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ma.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mc.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\md.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\md.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\me.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\me.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mh.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mh.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ml.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ml.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mp.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mp.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mq.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mq.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ms.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ms.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mt.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mt.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mu.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mv.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mv.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mx.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mx.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\my.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\my.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\mz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\mz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\na.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\na.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\nc.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\nc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ne.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ne.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\nf.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\nf.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ng.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ng.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ni.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ni.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\nl.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\nl.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\no.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\no.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\np.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\np.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\nr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\nr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\nu.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\nu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\nz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\nz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\om.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\om.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pa.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pa.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pe.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pe.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pf.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pf.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ph.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ph.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pl.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pl.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ps.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ps.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pt.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pt.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\pw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\pw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\py.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\py.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\qa.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\qa.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\re.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\re.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\readme.txt",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ro.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ro.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\rs.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\rs.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ru.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ru.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\rw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\rw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sa.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sa.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sb.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sb.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sc.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\scotland.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\scotland.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sd.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sd.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\se.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\se.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sh.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sh.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\si.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\si.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sj.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sj.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sl.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sl.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\so.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\so.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\st.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\st.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sv.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sv.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sy.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sy.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\sz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\sz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tc.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\td.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\td.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tf.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tf.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\th.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\th.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tj.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tj.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tk.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tl.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tl.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\to.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\to.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tr.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tr.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tt.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tt.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tv.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tv.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\tz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\tz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ua.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ua.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ug.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ug.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\um.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\um.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\us.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\us.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\uy.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\uy.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\uz.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\uz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\va.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\va.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\vc.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\vc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ve.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ve.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\vg.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\vg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\vi.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\vi.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\vn.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\vn.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\vu.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\vu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\wales.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\wales.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\wf.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\wf.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ws.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ws.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\ye.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\ye.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\yt.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\yt.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\za.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\za.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\zm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\zm.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\flags\\zw.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\flags\\zw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\img-shadow.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\img-shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\jm_denis.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\jm_denis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo2.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo3.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo4.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo5.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo5.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo6.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo6.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo7.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo7.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo8.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo8.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\demo9.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\demo9.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\favicon.ico",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\favicon.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\favicon.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\icon.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\icon.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\logo_dark.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\logo_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\logo_dark.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\logo_dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\logo_documentation.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\logo_documentation.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\logo_light.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\logo_light.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\kaiadmin\\logo_light.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\kaiadmin\\logo_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\logoproduct.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\logoproduct.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\logoproduct2.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\logoproduct2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\logoproduct3.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\logoproduct3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\mlane.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\mlane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\profile2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\profile2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\sauro.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\sauro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\talha.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\talha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_Hello_qnas.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_Hello_qnas.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_Taken_if77.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_Taken_if77.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_blank_canvas_3rbb.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_blank_canvas_3rbb.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_creative_team_r90h.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_creative_team_r90h.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_empty_xct9.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_empty_xct9.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_no_data_qbuo.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_no_data_qbuo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_not_found_60pq.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_not_found_60pq.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_page_not_found_su7k.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_page_not_found_su7k.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_sign_in_e6hj.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_sign_in_e6hj.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_tabs_jf82.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_tabs_jf82.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_update_uxn2.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_update_uxn2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\undraw\\undraw_upgrade_06a0.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\undraw\\undraw_upgrade_06a0.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\img\\visa.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\core\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\core\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\demo.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\kaiadmin.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\kaiadmin.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\kaiadmin.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\kaiadmin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\jsvectormap\\jsvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\jsvectormap\\world.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\jsvectormap\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\list.js\\list.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\owl-carousel\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\owl-carousel\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\owl-carousel\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\owl-carousel\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\sortable\\sortable.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\sortable\\sortable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\plugin\\webfont\\webfont.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugin\\webfont\\webfont.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\setting-demo.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\setting-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Admin\\assets\\js\\setting-demo2.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\setting-demo2.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\barfiller.css",
+      "PackagePath": "staticwebassets\\Home\\css\\barfiller.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Home\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\Home\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Home\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Home\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Home\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\Home\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\css\\style.css",
+      "PackagePath": "staticwebassets\\Home\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\Home\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\Home\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\Home\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\Home\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\Home\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Home\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Home\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Home\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Home\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Home\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Home\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\about-us.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\blog-profile.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\blog-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\comment-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\comment-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\comment-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\comment-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\comment-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\comment-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\details-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\details-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\details-hero.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\details-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\blog\\details\\quote-left.png",
+      "PackagePath": "staticwebassets\\Home\\img\\blog\\details\\quote-left.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\classes\\class-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\classes\\class-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\classes\\class-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\classes\\class-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\classes\\class-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\classes\\class-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\classes\\class-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\classes\\class-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\classes\\class-5.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\classes\\class-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\classes\\class-details\\class-detailsl.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\classes\\class-details\\class-detailsl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\classes\\class-details\\trainer-profile.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\classes\\class-details\\trainer-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\gallery\\gallery-9.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\gallery\\gallery-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\letest-blog\\latest-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\letest-blog\\latest-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\letest-blog\\latest-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\letest-blog\\latest-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\letest-blog\\latest-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\letest-blog\\latest-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\letest-blog\\latest-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\letest-blog\\latest-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\letest-blog\\latest-5.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\letest-blog\\latest-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Home\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\services\\services-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\services\\services-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\services\\services-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\services\\services-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\services\\services-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\services\\services-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\services\\services-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\services\\services-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\sidebar-banner.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\sidebar-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\team\\team-5.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\team\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\team\\team-6.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\team\\team-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\testimonial\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\testimonial\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\img\\testimonial\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\img\\testimonial\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Home\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Home\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\jquery.barfiller.js",
+      "PackagePath": "staticwebassets\\Home\\js\\jquery.barfiller.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Home\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\Home\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\main.js",
+      "PackagePath": "staticwebassets\\Home\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\Home\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Home\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Home\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\css\\style.css",
+      "PackagePath": "staticwebassets\\Login\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\Login\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\material-icon\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\Login\\fonts\\material-icon\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\material-icon\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\Login\\fonts\\material-icon\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-600.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-600.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-900.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-italic.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-regular.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\images\\signin-image.jpg",
+      "PackagePath": "staticwebassets\\Login\\images\\signin-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\images\\signup-image.jpg",
+      "PackagePath": "staticwebassets\\Login\\images\\signup-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\js\\main.js",
+      "PackagePath": "staticwebassets\\Login\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\common\\extend.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\common\\extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\common\\fonts.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\common\\fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\common\\global.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\common\\global.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\common\\minxi.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\common\\minxi.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\common\\variables.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\common\\variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\layouts\\main.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\layouts\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\layouts\\responsive.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\layouts\\responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\Login\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\vendor\\jquery\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\jquery\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Assignment.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Assignment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Assignment.props",
+      "PackagePath": "build\\Assignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Assignment.props",
+      "PackagePath": "buildMultiTargeting\\Assignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Assignment.props",
+      "PackagePath": "buildTransitive\\Assignment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

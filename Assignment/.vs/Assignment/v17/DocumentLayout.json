@@ -1,0 +1,524 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\admin\\pages\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\admin\\pages\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\admin\\pages\\manager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\admin\\pages\\manager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\admin\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\admin\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\services\\trainingpakageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:services\\trainingpakageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\auth\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\auth\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\auth\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\auth\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\bmi_calculator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\bmi_calculator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\bmi_calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\bmi_calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\blog_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\blog_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\class_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\class_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\class_timetable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\class_timetable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\areas\\home\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:areas\\home\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\wwwroot\\login\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:wwwroot\\login\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\models\\privategymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:models\\privategymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|c:\\users\\admin\\desktop\\asignment_prn222\\assignment\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{326C8050-0CDB-4C46-9CE1-580C4A7EC71D}|Assignment.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Revenue.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Admin\\Pages\\Revenue.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Revenue.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Admin\\Pages\\Revenue.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Pages\\Revenue.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T15:58:20.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Admin\\Pages\\Manager.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Manager.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Admin\\Pages\\Manager.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Pages\\Manager.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T15:56:14.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Admin\\Pages\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Admin\\Pages\\Admin.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Pages\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T15:55:04.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "trainingPakageService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Services\\trainingPakageService.cs",
+              "RelativeDocumentMoniker": "Services\\trainingPakageService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Services\\trainingPakageService.cs",
+              "RelativeToolTip": "Services\\trainingPakageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:23:02.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Home.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Home.cshtml",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAmwJoBAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T09:23:49.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Services.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Services.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Services.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Services.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAD4v00AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:11:46.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "authService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Services\\authService.cs",
+              "RelativeDocumentMoniker": "Services\\authService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Services\\authService.cs",
+              "RelativeToolTip": "Services\\authService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:02:10.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Home.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Home.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Home.cshtml.cs",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Home.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T06:17:36.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bmi_Calculator.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Bmi_Calculator.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Bmi_Calculator.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Bmi_Calculator.cshtml.cs",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Bmi_Calculator.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T06:57:56.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "userService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Services\\userService.cs",
+              "RelativeDocumentMoniker": "Services\\userService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Services\\userService.cs",
+              "RelativeToolTip": "Services\\userService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T06:19:16.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Team.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Team.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Team.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Team.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T09:26:27.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Auth\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Auth\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Auth\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAnwHkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T04:07:42.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Auth\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Auth\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Auth\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:07:44.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:54:20.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Blog.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Blog.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Blog.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Blog.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T09:25:03.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T06:14:13.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\About.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\About.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\About.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\About.cshtml",
+              "ViewState": "AgIAAAoCAAAAAAAAAAAAABkCAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T09:24:37.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Bmi_Calculator.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Bmi_Calculator.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Bmi_Calculator.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Bmi_Calculator.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Bmi_Calculator.cshtml",
+              "ViewState": "AgIAAMMAAAAAAAAAAAD4v8sAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:27:51.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Gallery.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Gallery.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Gallery.cshtml",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAADIBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T09:26:14.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Blog_Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Blog_Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Blog_Detail.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Blog_Detail.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Blog_Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:29:50.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Contact.cshtml",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAiwD8BAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T09:25:50.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvxAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:54:07.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:54:02.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Class_Timetable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Class_Timetable.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Class_Timetable.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Class_Timetable.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Class_Timetable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:31:41.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Class_Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Class_Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Home\\Pages\\Class_Detail.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Areas\\Home\\Pages\\Class_Detail.cshtml",
+              "RelativeToolTip": "Areas\\Home\\Pages\\Class_Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:31:59.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:19:06.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\js\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\Login\\js\\main.js",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\wwwroot\\Login\\js\\main.js",
+              "RelativeToolTip": "wwwroot\\Login\\js\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-01T04:49:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Assignment.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Assignment.csproj",
+              "RelativeDocumentMoniker": "Assignment.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Assignment.csproj",
+              "RelativeToolTip": "Assignment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-01T03:48:45.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PrivateGymDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Models\\PrivateGymDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\PrivateGymDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\Models\\PrivateGymDbContext.cs",
+              "RelativeToolTip": "Models\\PrivateGymDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:05:06.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-01T03:48:58.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Asignment_Prn222\\Assignment\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-01T03:48:54.338Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

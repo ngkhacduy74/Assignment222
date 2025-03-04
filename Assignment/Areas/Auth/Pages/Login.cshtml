@@ -1,0 +1,237 @@
+﻿@page "/Login"
+@model Assignment.Areas.Auth.LoginModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up & Login Form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="~/Login/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <style>
+        /* Nền tối cho toàn bộ trang */
+        body {
+            background-color: #111; /* Màu nền đen */
+            color: #fff; /* Màu chữ trắng */
+            font-family: 'Oswald', sans-serif;
+        }
+
+        /* Container chứa form đăng nhập */
+        .container {
+            background: rgba(0, 0, 0, 0.9); /* Nền đen mờ */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Form đăng nhập */
+        .signin-content, .signup-content {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        /* Input fields */
+        .form-group input {
+            background: #222; /* Nền đen nhạt */
+            color: #fff; /* Chữ trắng */
+            border: 1px solid #555;
+        }
+
+            .form-group input::placeholder {
+                color: #aaa; /* Chữ placeholder nhạt */
+            }
+
+        /* Nút đăng nhập */
+        .form-submit {
+            background: #ff6600; /* Màu cam nổi bật */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .form-submit:hover {
+                background: #e65c00;
+            }
+
+        /* Liên kết */
+        .signup-image-link, .label-agree-term a {
+            color: #ff6600;
+        }
+
+            .signup-image-link:hover, .label-agree-term a:hover {
+                color: #e65c00;
+            }
+
+        /* Ẩn nền trắng phía sau */
+        .main {
+            background: none;
+        }
+
+        /* Điều chỉnh hình ảnh */
+        .signin-image img, .signup-image img {
+            filter: brightness(0.8);
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+            .form-group i {
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                cursor: pointer;
+            }
+
+            .form-group input {
+                width: 100%;
+                padding-right: 35px; 
+            }
+    </style>
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/Login/css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign In Form (Default) -->
+        <section class="sign-in" id="signin-section">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="~/Login/images/signin-image.jpg" alt="sign in image"></figure>
+                        <a href="javascript:void(0);" class="signup-image-link" onclick="toggleForms()">Create an account</a>
+                    </div>
+                   
+
+                    <div class="signin-form">
+                        <h2 class="form-title">Sign in</h2>
+                         
+                        <form method="POST" class="register-form" id="login-form" >
+                            @Html.AntiForgeryToken()
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="Email" id="your_name" placeholder="Your Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="Password" id="your_pass" placeholder="Password" />
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="RememberMe" id="remember-me" class="agree-term" />
+                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sign Up Form (Hidden initially) -->
+        <section class="signup" id="signup-section" style="display: none;">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="full-name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="full-name" id="full-name" placeholder="Full Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="phone"><i class="zmdi zmdi-phone"></i></label>
+                                <input type="tel" name="phone" id="phone" placeholder="Phone Number" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Email Address" />
+                            </div>
+                            <div class="form-group">
+                                <label for="address"><i class="zmdi zmdi-home"></i></label>
+                                <input type="text" name="address" id="address" placeholder="Address" />
+                            </div>
+                            <div class="form-group">
+                                <label for="dob"><i class="zmdi zmdi-calendar"></i></label>
+                                <input type="date" name="dob" id="dob" placeholder="Date of Birth" />
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password" />
+                                <i class="zmdi zmdi-eye" id="toggle-pass" onclick="togglePasswordVisibility('pass')"></i>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password" />
+                                <i class="zmdi zmdi-eye" id="toggle-re-pass" onclick="togglePasswordVisibility('re-pass')"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="~/Login/images/signup-image.jpg" alt="sign up image"></figure>
+                        <a href="javascript:void(0);" class="signup-image-link" onclick="toggleForms()">I am already a member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="~/Login/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Login/js/main.js"></script>
+
+    <script>
+        // JavaScript function to toggle between Sign Up and Sign In forms
+        function toggleForms() {
+            var signupSection = document.getElementById("signup-section");
+            var signinSection = document.getElementById("signin-section");
+
+            if (signinSection.style.display === "none") {
+                signinSection.style.display = "block";
+                signupSection.style.display = "none";
+            } else {
+                signinSection.style.display = "none";
+                signupSection.style.display = "block";
+            }
+        }
+
+        
+        function togglePasswordVisibility(id) {
+            var passwordField = document.getElementById(id);
+            var toggleIcon = document.getElementById('toggle-' + id);
+
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                toggleIcon.classList.remove('zmdi-eye');
+                toggleIcon.classList.add('zmdi-eye-off');
+            } else {
+                passwordField.type = "password";
+                toggleIcon.classList.remove('zmdi-eye-off');
+                toggleIcon.classList.add('zmdi-eye');
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+﻿@page "/Admin"
+@model Assignment.Areas.Admin.Pages.AdminModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- Sidebar -->
+    <div class="flex">
+        <nav class="w-64 bg-gray-800 p-5">
+            <div class="text-white text-xl font-bold">Admin Panel</div>
+            <ul class="mt-5">
+                <li class="py-2 text-white"><a href="index.html">Dashboard</a></li>
+                <li class="py-2 text-white"><a href="account.html">Manage Accounts</a></li>
+                <li class="py-2 text-white"><a href="revenue.html">Revenue</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-5">
+            <header class="flex justify-between items-center">
+                <div class="text-2xl font-semibold">Dashboard</div>
+                <div>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Logout</button>
+                </div>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
+                <!-- Total Accounts -->
+                <div class="p-5 bg-white rounded-lg shadow-md">
+                    <div class="text-xl">Total Accounts</div>
+                    <div class="text-3xl font-semibold mt-2">350</div>
+                </div>
+                <!-- Total Services -->
+                <div class="p-5 bg-white rounded-lg shadow-md">
+                    <div class="text-xl">Total Services</div>
+                    <div class="text-3xl font-semibold mt-2">120</div>
+                </div>
+                <!-- Total Revenue -->
+                <div class="p-5 bg-white rounded-lg shadow-md">
+                    <div class="text-xl">Total Revenue</div>
+                    <div class="text-3xl font-semibold mt-2">$15,000</div>
+                </div>
+            </div>
+
+            <!-- Chart for Overview -->
+            <div class="mt-5">
+                <canvas id="overviewChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart.js Script -->
+    <script>
+        var ctx = document.getElementById('overviewChart').getContext('2d');
+        var overviewChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Revenue Growth',
+                    data: [3000, 4000, 3500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000],
+                    borderColor: 'blue',
+                    fill: false,
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
