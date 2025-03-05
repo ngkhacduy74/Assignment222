@@ -1,0 +1,58 @@
+﻿@page "/ChangePass"
+@model Assignment.Areas.Admin.Pages.ChangePassModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Change Password</title>
+    <link rel="stylesheet" href="../../Manager/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../Manager/assets/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="../../Manager/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../../Manager/assets/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../Manager/assets/css/style.css">
+    <link rel="shortcut icon" href="../../Manager/assets/images/favicon.png" />
+</head>
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="row w-100">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+                    <div class="card col-lg-4 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h3 class="card-title text-start mb-3">Change Password</h3>
+                            <form method="post">
+                                <div class="form-group">
+                                    <label>Current Password</label>
+                                    <input type="password" class="form-control p_input" name="currentPassword" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>New Password</label>
+                                    <input type="password" class="form-control p_input" name="newPassword" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Confirm New Password</label>
+                                    <input type="password" class="form-control p_input" name="confirmNewPassword" required>
+                                </div>
+                                <div class="text-center d-grid gap-2">
+                                    <button type="submit" class="btn btn-primary btn-block enter-btn">Change Password</button>
+                                </div>
+                                <p class="sign-up text-center mt-3">
+                                    <a href="/Admin">Back to Dashboard</a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../Manager/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../Manager/assets/js/off-canvas.js"></script>
+    <script src="../../Manager/assets/js/misc.js"></script>
+    <script src="../../Manager/assets/js/settings.js"></script>
+    <script src="../../Manager/assets/js/todolist.js"></script>
+</body>
+</html>
