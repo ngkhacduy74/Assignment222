@@ -1,4 +1,4 @@
-﻿using Assignment.Models;
+﻿using Assignment.Model;
 using Assignment.Services;
 
 using Assignment.Hubs; // Thêm namespace UserHub
@@ -12,6 +12,7 @@ builder.Services.AddDbContext<PrivateGymDbContext>(options =>
 
 builder.Services.AddHttpContextAccessor();
 
+//builder.Services.AddControllers().AddNewtonsoftJson();
 // Thêm SignalR
 builder.Services.AddSignalR();
 
@@ -28,6 +29,9 @@ builder.Services.AddScoped<authService>();
 builder.Services.AddScoped<userService>();
 builder.Services.AddScoped<trainingPakageService>();
 builder.Services.AddScoped<roleService>();
+builder.Services.AddScoped<accountService>();
+builder.Services.AddScoped<roomService>();
+builder.Services.AddScoped<ptService>();
 
 // Cấu hình Razor Pages với các area
 builder.Services.AddRazorPages(options =>
@@ -40,7 +44,7 @@ builder.Services.AddRazorPages(options =>
 var app = builder.Build();
 
 // Định tuyến SignalR
-//app.MapHub<UserHub>("/userHub");
+app.MapHub<UserHub>("/userHub");
 
 // Kiểm tra môi trường (Xử lý lỗi trong môi trường Production)
 if (!app.Environment.IsDevelopment())

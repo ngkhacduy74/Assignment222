@@ -29,9 +29,9 @@
     <link rel="shortcut icon" href="Manager/assets/images/favicon.png" />
     <style>
         .badge-outline-success:hover {
-            background-color: red !important;
-            color: white !important;
-            border-color: red !important;
+        background-color: red !important;
+        color: white !important;
+        border-color: red !important;
         }
 
     </style>
@@ -61,7 +61,7 @@
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
             <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
                 <a class="sidebar-brand brand-logo" href="index.html"><img src="Manager/assets/images/logo.svg" alt="logo" /></a>
-                <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="Manager/assets/images/logo-mini.svg" alt="logo" /></a>
+                <a class="sidebar-brand brand-logo-mini" href="/Admin"><img src="Manager/assets/images/logo-mini.svg" alt="logo" /></a>
             </div>
             <ul class="nav">
                 <li class="nav-item profile">
@@ -674,14 +674,77 @@
                         <div class="col-12 grid-margin">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Order Status</h4>
+                                    <h4 class="card-title">Manage Account</h4>
                                     <div class="mb-3">
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createUserModal">
+                                                <i class="mdi mdi-account-plus"></i> Create Account
+                                            </button>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="createUserModal" tabindex="-1" aria-labelledby="createUserModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="createUserModalLabel">Create New Account</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form id="createUserForm" method="post" action="?handler=CreateUser">
+                                                            @Html.AntiForgeryToken()
+
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Full Name</label>
+                                                                <input type="text" class="form-control" name="Fullname" required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Phone</label>
+                                                                <input type="text" class="form-control" name="Phone" required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Email</label>
+                                                                <input type="email" class="form-control" name="Email" required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Address</label>
+                                                                <input type="text" class="form-control" name="Address">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Date of Birth</label>
+                                                                <input type="date" class="form-control" name="DateOfBirth">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Password</label>
+                                                                <input type="password" class="form-control" name="Password">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Re-Password</label>
+                                                                <input type="password" class="form-control" name="Re_password">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Role</label>
+                                                                <select class="form-control" name="Role">
+
+                                                                    <option value="2">PT</option>
+
+                                                                    <option value="4">Manager</option>
+                                                                </select>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-success">Create</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                         <label for="roleFilter" class="form-label">Filter by Role:</label>
                                         <select id="roleFilter" class="form-control">
                                             <option value="all">All</option>
-                                            <option value="User">User</option>
-                                            <option value="PT">PT</option>
-                                            <option value="Admin">Admin</option>
+                                            <option value="1">User</option>
+                                            <option value="2">PT</option>
+                                            <option value="3">Admin</option>
+                                            <option value="4">Manager</option>
                                         </select>
                                     </div>
                                     <div class="table-responsive">
@@ -699,44 +762,96 @@
                                                     <th> Phone </th>
                                                     <th> Email </th>
                                                     <th> Address </th>
-                                                    <th> DateOfBirth </th>
+                                                    <th> Date Of Birth </th>
                                                     <th> Role </th>
                                                     <th> Package </th>
-                                                    <th> ServiceID </th>
-                                                    <th> IsActive </th>
+                                                    <th> Service ID </th>
+                                                    <th> Status </th>
 
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                @foreach (var user in Model.list)
+                                                @if (Model.list != null && Model.list.Any())
                                                 {
-                                                    <tr data-userid="@user.UserId">
-                                                        <td>
-                                                            <img src="Manager/assets/images/faces/face1.jpg" alt="image" />
-                                                            <span class="ps-2">@user.Fullname</span>
-                                                        </td>
-                                                        <td> @user.Phone </td>
-                                                        <td> @user.Email </td>
-                                                        <td> @user.Address </td>
-                                                        <td> @user.DateOfBirth </td>
-                                                        <td> @user.RoleId </td>
-                                                        <td>
-                                                            @if (@user.IsActive== true)
-                                                            {
-                                                                <div class="badge badge-outline-success">Active</div>
-                                                            }
-                                                            else
-                                                            {
-                                                                <button class="btn btn-danger btn-sm delete-btn" data-userid="@user.UserId">Xóa</button>
-                                                            }
-                                                        </td>
-                                                    </tr>
+                                                    @foreach (var user in Model.list)
+                                                    {
+                                                        <tr data-userid="@user.UserId" data-role="@user.RoleId">
+                                                            <td>
+                                                                <div class="form-check form-check-muted m-0">
+                                                                    <input type="checkbox" class="form-check-input">
+                                                                </div>
+                                                            </td>
+                                                            <td>@user.Fullname</td>
+                                                            <td>@user.Phone</td>
+                                                            <td>@user.Email</td>
+                                                            <td>@user.Address</td>
+                                                            <td>@user.DateOfBirth</td>
+                                                            <td class="role-editable" data-userid="@user.UserId" data-role="@user.RoleId">
+                                                                <button class="btn edit-account-btn
+        @switch (user.RoleId) {
+            case 1:
+                @("btn-primary")
+                break;
+            case 2:
+                @("btn-success")
+                break;
+            case 3:
+                @("btn-info")
+                break;
+            case 4:
+                @("btn-danger")
+                break;
+            default:
+                @("btn-secondary")
+                break;
+        }">
+                                                                    @switch (user.RoleId)
+                                                                    {
+                                                                        case 1:
+                                                                            <text>User</text>
+                                                                            break;
+                                                                        case 2:
+                                                                            <text>PT</text>
+                                                                            break;
+                                                                        case 3:
+                                                                            <text>Admin</text>
+                                                                            break;
+                                                                        case 4:
+                                                                            <text>Manager</text>
+                                                                            break;
+                                                                        default:
+                                                                            <text>Unknown</text>
+                                                                            break;
+                                                                    }
+                                                                </button>
+                                                            </td>
+                                                            <td>@user.Package</td>
+                                                            <td>@user.ServiceId</td>
+                                                            <td>
+                                                                @if (@user.IsActive == true)
+                                                                {
+                                                                    <span class="badge badge-outline-success status-toggle">Active</span>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <span class="badge badge-outline-danger status-toggle">Deactive</span>
+                                                                }
+                                                            </td>
+                                                            <td>
+                                                                @if (@user.IsActive == false && @user.RoleId != 3)
+                                                                {
+                                                                    <button class="btn btn-danger btn-sm delete-btn" data-userid="@user.UserId">Delete</button>
+                                                                }
+                                                            </td>
+                                                        </tr>
+                                                    }
                                                 }
+
+                                                
                                             </tbody>
-
-
                                         </table>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -994,106 +1109,138 @@
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script>
-            document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll(".status-toggle").forEach(function (badge) {
-                badge.addEventListener("click", function () {
-                    let parentCell = this.parentElement; // Ô chứa badge
-                    let deleteBtn = parentCell.querySelector(".delete-btn"); // Lấy nút xóa (nếu có)
+                       document.addEventListener("DOMContentLoaded", function () {
+            let roleFilter = document.getElementById("roleFilter");
+            let userTableRows = document.querySelectorAll("#userTable tbody tr");
 
-                    if (this.classList.contains("badge-outline-success")) {
-                        // Chuyển từ Active -> Deactive
-                        this.classList.remove("badge-outline-success");
-                        this.classList.add("badge-outline-danger");
-                        this.textContent = "Deactive";
+            roleFilter.addEventListener("change", function () {
+                let selectedRole = roleFilter.value;
 
-                        // Thêm nút xóa nếu chưa có
-                        if (!deleteBtn) {
-                            let newDeleteBtn = document.createElement("button");
-                            newDeleteBtn.classList.add("btn", "btn-danger", "btn-sm", "delete-btn");
-                            newDeleteBtn.textContent = "Xóa";
-                            parentCell.appendChild(newDeleteBtn);
+                userTableRows.forEach(row => {
+                    let userRole = row.getAttribute("data-role");
 
-                            // Gán sự kiện xóa cho nút mới
-                            newDeleteBtn.addEventListener("click", function () {
-                                confirmDelete(parentCell.parentElement);
-                            });
-                        }
+                    if (selectedRole === "all" || userRole === selectedRole) {
+                        row.style.display = "";
                     } else {
-                        // Chuyển từ Deactive -> Active
-                        this.classList.remove("badge-outline-danger");
-                        this.classList.add("badge-outline-success");
-                        this.textContent = "Active";
-
-                        // Xóa nút xóa nếu tồn tại
-                        if (deleteBtn) {
-                            deleteBtn.remove();
-                        }
+                        row.style.display = "none";
                     }
                 });
             });
+        });//lọc theo role
+                document.addEventListener("DOMContentLoaded", function () {
+            let userTable = document.querySelector("#userTable tbody");
 
-            // Gán sự kiện xóa cho các tài khoản đã deactive sẵn
-            document.querySelectorAll(".delete-btn").forEach(function (deleteBtn) {
-                deleteBtn.addEventListener("click", function () {
-                    confirmDelete(deleteBtn.parentElement.parentElement);
-                });
+            // Bắt sự kiện khi click vào badge trạng thái (Active/Deactive)
+            userTable.addEventListener("click", function (event) {
+                if (event.target.classList.contains("status-toggle")) {
+                    let statusBadge = event.target;
+                    let row = statusBadge.closest("tr");
+                    let userId = row.getAttribute("data-userid");
+                    let roleId = row.getAttribute("data-role");
+
+                    if (roleId == "3") {
+                        alert("Tài khoản Admin không thể bị Deactive!");
+                        return;
+                    }
+
+                    // Toggle trạng thái
+                    if (statusBadge.classList.contains("badge-outline-success")) {
+                        statusBadge.classList.remove("badge-outline-success");
+                        statusBadge.classList.add("badge-outline-danger");
+                        statusBadge.textContent = "Deactive";
+
+                        // Thêm nút xóa nếu là Deactive và không phải Admin
+                        let deleteBtn = row.querySelector(".delete-btn");
+                        if (!deleteBtn) {
+                            let deleteCell = row.insertCell(-1);
+                            deleteCell.innerHTML = `<button class="btn btn-danger btn-sm delete-btn">Delete</button>`;
+                        }
+                    } else {
+                        statusBadge.classList.remove("badge-outline-danger");
+                        statusBadge.classList.add("badge-outline-success");
+                        statusBadge.textContent = "Active";
+
+                        // Xóa nút delete nếu Active
+                        let deleteBtn = row.querySelector(".delete-btn");
+                        if (deleteBtn) {
+                            deleteBtn.closest("td").remove();
+                        }
+                    }
+                }
             });
 
-            function confirmDelete(row) {
-                if (confirm("Bạn có chắc chắn muốn xóa tài khoản này không?")) {
-                    row.remove(); // Xóa hàng chứa tài khoản đó
-                    alert("Tài khoản đã được xóa thành công!");
-                } else {
-                    alert("Hủy xóa tài khoản.");
+            // Bắt sự kiện xóa tài khoản
+            userTable.addEventListener("click", function (event) {
+                if (event.target.classList.contains("delete-btn")) {
+                    let row = event.target.closest("tr");
+                    let userId = row.getAttribute("data-userid");
+
+                    if (confirm("Bạn có chắc chắn muốn xóa tài khoản này?")) {
+                        row.remove();
+                        alert("Tài khoản đã bị xóa.");
+                    }
+                }
+            });
+        });
+
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Kết nối đến Hub
+            var connection = new signalR.HubConnectionBuilder()
+                .withUrl("/userHub")
+                .build();
+
+            // Lắng nghe sự kiện khi có User mới được tạo
+            connection.on("UserCreated", function (user) {
+                alert("Tài khoản mới đã được tạo: " + user.fullname);
+
+                // Cập nhật bảng user mà không cần tải lại trang
+                let userTable = document.querySelector("#userTable tbody");
+                let newRow = `
+                    <tr data-userid="${user.userId}" data-role="${user.roleId}">
+                        <td>${user.fullname}</td>
+                        <td>${user.phone}</td>
+                        <td>${user.email}</td>
+                        <td>${user.address || "N/A"}</td>
+                        <td>${user.dateOfBirth || "N/A"}</td>
+                        <td>
+                            <button class="btn role-btn btn-${getRoleColor(user.roleId)}">${getRoleName(user.roleId)}</button>
+                        </td>
+                        <td><span class="badge badge-outline-success">Active</span></td>
+                    </tr>`;
+                userTable.innerHTML += newRow;
+            });
+
+            // Bắt đầu kết nối SignalR
+            connection.start().catch(err => console.error(err.toString()));
+
+            function getRoleName(roleId) {
+                switch (roleId) {
+                    case 1: return "User";
+                    case 2: return "PT";
+                    case 3: return "Admin";
+                    case 4: return "Manager";
+                    default: return "Unknown";
+                }
+            }
+
+            function getRoleColor(roleId) {
+                switch (roleId) {
+                    case 1: return "primary";
+                    case 2: return "success";
+                    case 3: return "info";
+                    case 4: return "danger";
+                    default: return "secondary";
                 }
             }
         });
-
-                document.addEventListener("DOMContentLoaded", function () {
-            const roleFilter = document.getElementById("roleFilter");
-            const userRows = document.querySelectorAll("#userTable tbody tr");
-
-            roleFilter.addEventListener("change", function () {
-                const selectedRole = roleFilter.value;
-
-                userRows.forEach(row => {
-                    const userRole = row.getAttribute("data-role");
-
-                    if (selectedRole === "all" || userRole === selectedRole) {
-                        row.style.display = ""; // Hiển thị hàng phù hợp
-                    } else {
-                        row.style.display = "none"; // Ẩn hàng không phù hợp
-                    }
-                });
-            });
-        });
-              document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll(".delete-btn").forEach(button => {
-                button.addEventListener("click", function () {
-                    const userId = this.getAttribute("data-userid");
-
-                    if (confirm("Bạn có chắc chắn muốn xóa tài khoản này không?")) {
-                        fetch(window.location.pathname, {
-                            method: "POST",
-                            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                            body: `handler=DeleteUser&userId=${userId}`
-                        })
-                        .then(response => response.json())
-                        .then(data => {
-                            if (data.success) {
-                                alert("Xóa tài khoản thành công!");
-                                document.querySelector(`tr[data-userid="${userId}"]`).remove(); // Xóa dòng User khỏi giao diện
-                            } else {
-                                alert("Lỗi: " + data.message);
-                            }
-                        })
-                        .catch(error => console.error("Lỗi khi xóa tài khoản:", error));
-                    }
-                });
-            });
-        });
-
     </script>
+
+
     <script src="Manager/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
@@ -1113,6 +1260,8 @@
     <!-- Custom js for this page -->
     <script src="Manager/assets/js/proBanner.js"></script>
     <script src="Manager/assets/js/dashboard.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
     <!-- End custom js for this page -->
 </body>
 </html>

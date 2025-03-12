@@ -1,4 +1,4 @@
-using Assignment.Models;
+using Assignment.Model;
 using Assignment.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +12,13 @@ namespace Assignment.Areas.Home.Pages
     {
         private readonly ISession _session;
         private readonly trainingPakageService _trainingPakageService;
-        public HomeModel(trainingPakageService trainingPakageService, IHttpContextAccessor httpContextAccessor) {
+
+        public HomeModel(trainingPakageService trainingPakageService, IHttpContextAccessor httpContextAccessor)
+        {
             _trainingPakageService = trainingPakageService;
             _session = httpContextAccessor.HttpContext.Session;
         }
+
         public void OnGet()
         {
             List<TrainingPackage> listTrainingPackage = _trainingPakageService.get3TrainingPackage();
@@ -26,9 +29,8 @@ namespace Assignment.Areas.Home.Pages
             };
 
             string list = JsonSerializer.Serialize(listTrainingPackage, options);
-           
-            _session.SetString("list", list);
 
+            _session.SetString("list", list);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Assignment.Models;
+﻿using Assignment.Model;
 using Assignment.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,8 +13,10 @@ namespace Assignment.Areas.Auth
     {
         [BindProperty]
         public string Email { get; set; }
+
         [BindProperty]
         public string Password { get; set; }
+
         [BindProperty]
         public bool RememberMe { get; set; }
 
@@ -22,7 +24,7 @@ namespace Assignment.Areas.Auth
         private readonly userService _userService;
         private readonly ISession _session;
 
-        public LoginModel(authService authService,userService userService, IHttpContextAccessor httpContextAccessor)
+        public LoginModel(authService authService, userService userService, IHttpContextAccessor httpContextAccessor)
         {
             _authService = authService;
             _userService = userService;
@@ -33,7 +35,7 @@ namespace Assignment.Areas.Auth
         {
             Debug.WriteLine("Trang đăng nhập được tải.");
         }
-      
+
         public IActionResult OnPost()
         {
             Debug.WriteLine("Đăng nhập được gọi.");
@@ -44,9 +46,8 @@ namespace Assignment.Areas.Auth
                 _session.SetString("error", "Sai tên đăng nhập hoặc mật khẩu");
                 return RedirectToPage("/Login");
             }
-           
-            var user = _userService.getUserByEmail(account.Email);
 
+            var user = _userService.getUserByEmail(account.Email);
 
             var options = new JsonSerializerOptions
             {
@@ -57,9 +58,7 @@ namespace Assignment.Areas.Auth
             string userJson = JsonSerializer.Serialize(user, options);
             HttpContext.Session.SetString("success", userJson);
 
-
             return RedirectToPage("/Home", new { area = "Home" });
-
         }
     }
 }

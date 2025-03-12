@@ -26,6 +26,99 @@
     <link rel="stylesheet" href="Home/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="Home/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="Home/css/style.css" type="text/css">
+    <style>
+        .class-timetable td {
+        color: #ffffff; /* Màu trắng để chữ sáng hơn */
+        font-weight: bold;
+        font-size: 14px;
+        }
+
+        .class-timetable table {
+        width: 80%;
+        border-collapse: collapse;
+        }
+
+        .class-timetable th, .class-timetable td {
+        padding: 10px;
+        text-align: center;
+        white-space: normal; 
+        }
+
+        .class-timetable th {
+        background-color: #e67e22;
+        color: white;
+        font-weight: bold;
+        }
+
+        .class-timetable .class-time {
+        background-color: #2c3e50;
+        color: white;
+        }
+
+        .class-timetable td {
+        background-color: #e74c3c;
+        color: white;
+        font-weight: bold;
+        }
+
+        .today-text {
+        font-size: 24px; /* Kích thước chữ lớn hơn */
+        font-weight: bold;
+        }
+
+        .class-timetable table {
+        width: 100%;
+        border-collapse: collapse;
+        }
+
+        .class-timetable th, .class-timetable td {
+        padding: 10px;
+        text-align: center;
+        white-space: nowrap; /* Ngăn chữ xuống dòng */
+        }
+
+        .class-timetable th {
+        background-color: #e67e22;
+        color: white;
+        font-weight: bold;
+        }
+
+        .class-timetable .class-time {
+        background-color: #2c3e50;
+        color: white;
+        }
+
+        .class-timetable td {
+        background-color: #e74c3c;
+        color: white;
+        font-weight: bold;}
+
+        .class-timetable .no-room {
+        background-color: #808080; /* Màu xám cho ô trống */
+        color: white;
+        font-style: italic;
+        text-decoration: line-through;
+        }
+
+        .class-timetable td {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer; /* Biến con trỏ thành bàn tay khi hover */
+        }
+
+            /* Khi di chuột vào ô có dữ liệu, nó sẽ nổi lên */
+            .class-timetable td:not(.no-room):hover {
+                transform: scale(1.1); /* Phóng to nhẹ */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                background-color: #d35400; /* Màu cam đậm hơn để nổi bật */
+            }
+
+            /* Ô trống sẽ không có hiệu ứng */
+            .class-timetable td.no-room {
+                cursor: not-allowed; /* Khi di chuột vào sẽ không thể click */
+                background-color: #808080;
+            }
+
+    </style>
 </head>
 
 <body>
@@ -152,152 +245,98 @@
                 <div class="col-lg-6">
                     <div class="section-title">
                         <span>Find Your Time</span>
-                        <h2>Find Your Time</h2>
+                        <h2>Find Your Room</h2>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="table-controls">
-                        <ul>
-                            <li class="active" data-tsfilter="all">All event</li>
-                            <li data-tsfilter="fitness">Fitness tips</li>
-                            <li data-tsfilter="motivation">Motivation</li>
-                            <li data-tsfilter="workout">Workout</li>
-                        </ul>
-                    </div>
-                </div>
+               
+
             </div>
             <div class="row">
                 <div class="col-lg-12">
+                   
                     <div class="class-timetable">
-                        <table>
+                        <table border="1">
                             <thead>
                                 <tr>
-                                    <th></th>
-                                    <th>Monday</th>
-                                    <th>Tuesday</th>
-                                    <th>Wednesday</th>
-                                    <th>Thursday</th>
-                                    <th>Friday</th>
-                                    <th>Saturday</th>
-                                    <th>Sunday</th>
+                                    <th colspan="8" class="today-text">
+                                        <script>
+                                            const now = new Date();
+                                            const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                                            document.write(`${days[now.getDay()]}`);
+                                        </script>
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td class="class-time">6.00am - 8.00am</td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>WEIGHT LOOSE</h5>
-                                        <span>RLefew D. Loee</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="fitness">
-                                        <h5>Cardio</h5>
-                                        <span>RLefew D. Loee</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>Yoga</h5>
-                                        <span>Keaf Shen</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="fitness">
-                                        <h5>Fitness</h5>
-                                        <span>Kimberly Stone</span>
-                                    </td>
-                                    <td class="dark-bg blank-td"></td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="motivation">
-                                        <h5>Boxing</h5>
-                                        <span>Rachel Adam</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>Body Building</h5>
-                                        <span>Robert Cage</span>
-                                    </td>
+                                    @foreach (var room in Model.listRoom)
+                                    {
+                                        <td class="clickable-room">
+                                            <form method="post" action="/Class-timetable">
+                                                @Html.AntiForgeryToken()
+                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <button type="submit" class="room-button">@room.RoomName</button>
+                                            </form>
+                                        </td>
+                                    }
                                 </tr>
                                 <tr>
-                                    <td class="class-time">10.00am - 12.00am</td>
-                                    <td class="blank-td"></td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
-                                        <h5>Fitness</h5>
-                                        <span>Kimberly Stone</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>WEIGHT LOOSE</h5>
-                                        <span>RLefew D. Loee</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="motivation">
-                                        <h5>Cardio</h5>
-                                        <span>RLefew D. Loee</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>Body Building</h5>
-                                        <span>Robert Cage</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="motivation">
-                                        <h5>Karate</h5>
-                                        <span>Donald Grey</span>
-                                    </td>
-                                    <td class="blank-td"></td>
+                                    <td class="class-time">8.30am - 10.30am</td>
+                                    @foreach (var room in Model.listRoom)
+                                    {
+                                        <td class="clickable-room">
+                                            <form method="post" action="/Class-timetable">
+                                                @Html.AntiForgeryToken()
+                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <button type="submit" class="room-button">@room.RoomName</button>
+                                            </form>
+                                        </td>
+                                    }
                                 </tr>
                                 <tr>
-                                    <td class="class-time">5.00pm - 7.00pm</td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
-                                        <h5>Boxing</h5>
-                                        <span>Rachel Adam</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="motivation">
-                                        <h5>Karate</h5>
-                                        <span>Donald Grey</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>Body Building</h5>
-                                        <span>Robert Cage</span>
-                                    </td>
-                                    <td class="blank-td"></td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>Yoga</h5>
-                                        <span>Keaf Shen</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="motivation">
-                                        <h5>Cardio</h5>
-                                        <span>RLefew D. Loee</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
-                                        <h5>Fitness</h5>
-                                        <span>Kimberly Stone</span>
-                                    </td>
+                                    <td class="class-time">2.00pm - 4.00pm</td>
+                                    @foreach (var room in Model.listRoom)
+                                    {
+                                        <td class="clickable-room">
+                                            <form method="post" action="/Class-timetable">
+                                                @Html.AntiForgeryToken()
+                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <button type="submit" class="room-button">@room.RoomName</button>
+                                            </form>
+                                        </td>
+                                    }
+                                </tr>
+                                <tr>
+                                    <td class="class-time">4.30pm - 6.30pm</td>
+                                    @foreach (var room in Model.listRoom)
+                                    {
+                                        <td class="clickable-room">
+                                            <form method="post" action="/Class-timetable">
+                                                @Html.AntiForgeryToken()
+                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <button type="submit" class="room-button">@room.RoomName</button>
+                                            </form>
+                                        </td>
+                                    }
                                 </tr>
                                 <tr>
                                     <td class="class-time">7.00pm - 9.00pm</td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="motivation">
-                                        <h5>Cardio</h5>
-                                        <span>RLefew D. Loee</span>
-                                    </td>
-                                    <td class="dark-bg blank-td"></td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="fitness">
-                                        <h5>Boxing</h5>
-                                        <span>Rachel Adam</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>Yoga</h5>
-                                        <span>Keaf Shen</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="motivation">
-                                        <h5>Karate</h5>
-                                        <span>Donald Grey</span>
-                                    </td>
-                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
-                                        <h5>Boxing</h5>
-                                        <span>Rachel Adam</span>
-                                    </td>
-                                    <td class="hover-bg ts-meta" data-tsmeta="workout">
-                                        <h5>WEIGHT LOOSE</h5>
-                                        <span>RLefew D. Loee</span>
-                                    </td>
+                                    @foreach (var room in Model.listRoom)
+                                    {
+                                        <td class="clickable-room">
+                                            <form method="post" action="/Class-timetable">
+                                                @Html.AntiForgeryToken()
+                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <button type="submit" class="room-button">@room.RoomName</button>
+                                            </form>
+                                        </td>
+                                    }
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                </div>
-            </div>
-        </div>
+
     </section>
     <!-- Class Timetable Section End -->
     <!-- Get In Touch Section Begin -->
@@ -416,8 +455,13 @@
             </form>
         </div>
     </div>
-    <!-- Search model end -->
-    <!-- Js Plugins -->
+   
+    <script>
+        function goToClassDetails(roomId) {
+            window.location.href = "/Class-details?roomId=" + roomId;
+        }
+    </script>
+
     <script src="Home/js/jquery-3.3.1.min.js"></script>
     <script src="Home/js/bootstrap.min.js"></script>
     <script src="Home/js/jquery.magnific-popup.min.js"></script>

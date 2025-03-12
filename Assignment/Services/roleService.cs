@@ -1,4 +1,4 @@
-﻿using Assignment.Models;
+﻿using Assignment.Model;
 
 namespace Assignment.Services
 {
