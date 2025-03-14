@@ -1,4 +1,4 @@
-﻿using Assignment.Model;
+﻿using Assignment.Models;
 using System.Diagnostics;
 
 namespace Assignment.Services

@@ -1,5 +1,5 @@
 ﻿using Assignment.Hubs;
-using Assignment.Model;
+using Assignment.Models;
 using Assignment.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

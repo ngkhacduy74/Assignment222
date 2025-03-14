@@ -1,4 +1,4 @@
-﻿using Assignment.Model;
+﻿using Assignment.Models;
 using Assignment.Services;
 
 using Assignment.Hubs; // Thêm namespace UserHub
@@ -32,6 +32,7 @@ builder.Services.AddScoped<roleService>();
 builder.Services.AddScoped<accountService>();
 builder.Services.AddScoped<roomService>();
 builder.Services.AddScoped<ptService>();
+builder.Services.AddScoped<timeSlotsService>();
 
 // Cấu hình Razor Pages với các area
 builder.Services.AddRazorPages(options =>

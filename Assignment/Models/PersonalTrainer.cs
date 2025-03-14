@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assignment.Model;
+namespace Assignment.Models;
 
 public partial class PersonalTrainer
 {
@@ -24,6 +24,8 @@ public partial class PersonalTrainer
     public virtual Account EmailNavigation { get; set; } = null!;
 
     public virtual ICollection<RoomBooking> RoomBookings { get; set; } = new List<RoomBooking>();
+
+    public virtual ICollection<TrainerAvailability> TrainerAvailabilities { get; set; } = new List<TrainerAvailability>();
 
     public virtual ICollection<TrainingSchedule> TrainingSchedules { get; set; } = new List<TrainingSchedule>();
 

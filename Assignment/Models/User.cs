@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assignment.Model;
+namespace Assignment.Models;
 
 public partial class User
 {
@@ -24,6 +24,8 @@ public partial class User
     public bool? IsActive { get; set; }
 
     public int? ServiceId { get; set; }
+
+    public string? Img { get; set; }
 
     public virtual Account EmailNavigation { get; set; } = null!;
 

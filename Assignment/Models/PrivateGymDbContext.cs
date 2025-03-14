@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Assignment.Model;
+namespace Assignment.Models;
 
 public partial class PrivateGymDbContext : DbContext
 {
@@ -29,7 +29,13 @@ public partial class PrivateGymDbContext : DbContext
 
     public virtual DbSet<RoomBooking> RoomBookings { get; set; }
 
+    public virtual DbSet<RoomSchedule> RoomSchedules { get; set; }
+
     public virtual DbSet<Service> Services { get; set; }
+
+    public virtual DbSet<TimeSlot> TimeSlots { get; set; }
+
+    public virtual DbSet<TrainerAvailability> TrainerAvailabilities { get; set; }
 
     public virtual DbSet<TrainingPackage> TrainingPackages { get; set; }
 
@@ -140,7 +146,16 @@ public partial class PrivateGymDbContext : DbContext
             entity.Property(e => e.RoomId)
                 .ValueGeneratedNever()
                 .HasColumnName("RoomID");
+            entity.Property(e => e.Description)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Img)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.IsAvailable).HasDefaultValue(true);
+            entity.Property(e => e.Location)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.RoomName).HasMaxLength(255);
         });
 
@@ -178,6 +193,28 @@ public partial class PrivateGymDbContext : DbContext
                 .HasConstraintName("FK__Room_Book__UserI__60A75C0F");
         });
 
+        modelBuilder.Entity<RoomSchedule>(entity =>
+        {
+            entity.HasKey(e => e.ScheduleId).HasName("PK__Room_Sch__9C8A5B69883F341E");
+
+            entity.ToTable("Room_Schedule");
+
+            entity.Property(e => e.ScheduleId)
+                .ValueGeneratedNever()
+                .HasColumnName("ScheduleID");
+            entity.Property(e => e.IsBooked).HasDefaultValue(false);
+            entity.Property(e => e.RoomId).HasColumnName("RoomID");
+            entity.Property(e => e.SlotId).HasColumnName("SlotID");
+
+            entity.HasOne(d => d.Room).WithMany(p => p.RoomSchedules)
+                .HasForeignKey(d => d.RoomId)
+                .HasConstraintName("FK__Room_Sche__RoomI__68487DD7");
+
+            entity.HasOne(d => d.Slot).WithMany(p => p.RoomSchedules)
+                .HasForeignKey(d => d.SlotId)
+                .HasConstraintName("FK__Room_Sche__SlotI__693CA210");
+        });
+
         modelBuilder.Entity<Service>(entity =>
         {
             entity.HasKey(e => e.ServiceId).HasName("PK__Services__C51BB0EAA23CD586");
@@ -190,6 +227,42 @@ public partial class PrivateGymDbContext : DbContext
             entity.Property(e => e.ServiceType)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<TimeSlot>(entity =>
+        {
+            entity.HasKey(e => e.SlotId).HasName("PK__Time_Slo__0A124A4F3EB669BA");
+
+            entity.ToTable("Time_Slots");
+
+            entity.Property(e => e.SlotId)
+                .ValueGeneratedNever()
+                .HasColumnName("SlotID");
+        });
+
+        modelBuilder.Entity<TrainerAvailability>(entity =>
+        {
+            entity.HasKey(e => e.AvailabilityId).HasName("PK__Trainer___DA397991C95FC279");
+
+            entity.ToTable("Trainer_Availability");
+
+            entity.Property(e => e.AvailabilityId)
+                .ValueGeneratedNever()
+                .HasColumnName("AvailabilityID");
+            entity.Property(e => e.IsAvailable).HasDefaultValue(true);
+            entity.Property(e => e.PtEmail)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("PT_Email");
+            entity.Property(e => e.SlotId).HasColumnName("SlotID");
+
+            entity.HasOne(d => d.PtEmailNavigation).WithMany(p => p.TrainerAvailabilities)
+                .HasForeignKey(d => d.PtEmail)
+                .HasConstraintName("FK__Trainer_A__PT_Em__6D0D32F4");
+
+            entity.HasOne(d => d.Slot).WithMany(p => p.TrainerAvailabilities)
+                .HasForeignKey(d => d.SlotId)
+                .HasConstraintName("FK__Trainer_A__SlotI__6E01572D");
         });
 
         modelBuilder.Entity<TrainingPackage>(entity =>
@@ -259,6 +332,9 @@ public partial class PrivateGymDbContext : DbContext
             entity.Property(e => e.Fullname)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+            entity.Property(e => e.Img)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.PackageId).HasColumnName("PackageID");
             entity.Property(e => e.Phone)
                 .HasMaxLength(255)
@@ -312,5 +388,9 @@ public partial class PrivateGymDbContext : DbContext
                 .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK__User_PT_B__UserI__36B12243");
         });
+
+        OnModelCreatingPartial(modelBuilder);
     }
+
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

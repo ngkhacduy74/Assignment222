@@ -2,18 +2,18 @@
 
 namespace Assignment.Services
 {
-    public class ptService
+    public class timeSlotsService
     {
         private readonly PrivateGymDbContext _context;
 
-        public ptService(PrivateGymDbContext context)
+        public timeSlotsService(PrivateGymDbContext context)
         {
             _context = context;
         }
 
-        public List<PersonalTrainer> GetAllPersonalTrainer()
+        public List<TimeSlot> getAllTimeSlot()
         {
-            return _context.PersonalTrainers.ToList();
+            return _context.TimeSlots.ToList();
         }
     }
 }

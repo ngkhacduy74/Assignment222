@@ -1,4 +1,4 @@
-﻿using Assignment.Model;
+﻿using Assignment.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Assignment.Services

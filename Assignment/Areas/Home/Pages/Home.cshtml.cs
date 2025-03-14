@@ -1,4 +1,7 @@
-using Assignment.Model;
+using Assignment.Models;
+
+using Assignment.Models;
+
 using Assignment.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

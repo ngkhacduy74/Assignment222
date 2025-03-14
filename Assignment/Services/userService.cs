@@ -1,4 +1,4 @@
-﻿using Assignment.Model;
+﻿using Assignment.Models;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment.Services
