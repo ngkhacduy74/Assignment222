@@ -41,6 +41,16 @@ builder.Services.AddRazorPages(options =>
     options.Conventions.AddAreaPageRoute("Home", "/{page}", "/Home/{page}");
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 // Xây dựng ứng dụng
 var app = builder.Build();
 
@@ -64,6 +74,7 @@ app.UseRouting();
 
 // Kích hoạt Authorization (nếu có Authentication, đặt trước `UseAuthorization`)
 app.UseAuthorization();
+app.UseCors("AllowAll");
 
 // Định tuyến Razor Pages
 app.MapRazorPages();

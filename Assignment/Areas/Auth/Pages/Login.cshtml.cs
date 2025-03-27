@@ -39,26 +39,36 @@ namespace Assignment.Areas.Auth
         public IActionResult OnPost()
         {
             Debug.WriteLine("Đăng nhập được gọi.");
-            var account = _authService.Authenticate(Email, Password);
 
+            // Authenticate account
+            var account = _authService.Authenticate(Email, Password);
             if (account == null)
             {
                 _session.SetString("error", "Sai tên đăng nhập hoặc mật khẩu");
                 return RedirectToPage("/Login");
             }
 
+            // Get user by email
             var user = _userService.getUserByEmail(account.Email);
 
+            // Serialize user object
             var options = new JsonSerializerOptions
             {
                 ReferenceHandler = ReferenceHandler.Preserve,
                 WriteIndented = true
             };
-
             string userJson = JsonSerializer.Serialize(user, options);
+
+            // Store user info in session
             HttpContext.Session.SetString("success", userJson);
 
-            return RedirectToPage("/Home", new { area = "Home" });
+            // Redirect based on user role
+            return user.RoleId switch
+            {
+                1 => RedirectToPage("/Home", new { area = "Home" }),
+                3 => RedirectToPage("/Admin", new { area = "Admin" }),
+                _ => RedirectToPage("/Login")  // Optional: Handle any other roles or unauthorized access
+            };
         }
     }
 }

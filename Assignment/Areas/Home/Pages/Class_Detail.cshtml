@@ -253,6 +253,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                   
                                     <div id="submitTrainerSection" style="display: none; margin-top: 20px;">
                                         <button id="submitTrainerBtn" class="btn btn-success">Submit</button>
                                     </div>
@@ -263,6 +264,17 @@
                         </div>
                     </div>
                 </div>
+
+                <form id="bookingForm" method="POST" action="/Gallery">
+                     @Html.AntiForgeryToken()
+                    <input type="hidden" name="UserId" value="1"> <!-- User ID -->
+                    <input type="hidden" name="RoomId" value="@Model.Room.RoomId"> <!-- Room ID -->
+                    <input type="hidden" name="TimeSlotId" value="@Model.TimeSlotId"> <!-- Time Slot ID -->
+                    <input type="hidden" name="PtEmail" id="trainerEmailInput" value=""> <!-- Trainer Email -->
+                    <input type="hidden" name="TrainingDate" id="trainingDateInput" value="">
+
+                    <button type="submit" id="submitFormBtn" class="btn btn-primary">Submit</button>
+                </form>
                 
 
                 <div class="col-lg-4 col-md-8">
@@ -439,6 +451,27 @@
             </div>
         </div>
     </section>
+    <!-- Modal xác nhận đặt phòng -->
+    <div class="modal fade" id="confirmBookingModal" tabindex="-1" role="dialog" aria-labelledby="confirmBookingLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmBookingLabel">Xác nhận đặt lịch</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="confirmText">Bạn chắc chắn muốn đặt phòng <strong id="confirmRoomName"></strong> với sự hỗ trợ của HLV <strong id="confirmTrainerName"></strong> không?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-primary" id="confirmBookingBtn">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="search-close-switch">+</div>
@@ -448,7 +481,7 @@
         </div>
     </div>
     <script>
-              function selectTrainer(name, expertise, email, dob, achievements) {
+                      function selectTrainer(name, expertise, email, dob, achievements) {
             if (!name || !expertise || !email || !dob || !achievements) {
                 console.error("Dữ liệu PT không hợp lệ:", { name, expertise, email, dob, achievements });
                 return;
@@ -462,21 +495,65 @@
             document.getElementById("trainerAchievements").textContent = achievements;
             document.getElementById("trainerDetails").style.display = "block";
 
+            // Store the trainer's email in the hidden input field
+            document.getElementById("trainerEmailInput").value = email;
+
             // Hiển thị nút Submit
             document.getElementById("submitTrainerSection").style.display = "block";
 
             setTimeout(function () {
-                $('#trainerModal').modal('hide'); // Ẩn modal sau khi chọn PT
-                $('body').removeClass('modal-open'); // Loại bỏ lớp che modal
-                $('.modal-backdrop').remove(); // Xóa lớp nền mờ của modal
+                $('#trainerModal').modal('hide'); // Hide the modal after selecting PT
+                $('body').removeClass('modal-open'); // Remove the modal open class
+                $('.modal-backdrop').remove(); // Remove the modal backdrop
             }, 300);
         }
 
 
+
     </script>
 
+    <script>
+                    document.getElementById("submitTrainerBtn").addEventListener("click", function () {
+            let roomName = "@Model.Room.RoomName"; // Get room name from Model
+            let trainerName = document.getElementById("trainerName").textContent; // Get trainer name from the UI
 
-    <!-- Thêm Bootstrap JS nếu chưa có -->
+            // Update the content of the confirmation modal
+            document.getElementById("confirmRoomName").textContent = roomName;
+            document.getElementById("confirmTrainerName").textContent = trainerName;
+
+            // Show the confirmation modal
+            $('#confirmBookingModal').modal('show');
+        });
+
+        document.getElementById("confirmBookingBtn").addEventListener("click", function () {
+            let userId = 1; // Replace with actual user ID (use session if available)
+            let roomId = @Model.Room.RoomId; // Get RoomId from Model
+            let timeSlotId = @Model.TimeSlotId; // Get TimeSlotId from Model
+            let ptEmail = document.getElementById("trainerEmail").textContent.replace("Email: ", "").trim(); // Get the PT's email
+            let trainingDate = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
+            console.log("Training Date: ", trainingDate);
+            // Validate data before submitting
+            if (!roomId || !timeSlotId || !ptEmail || !userId) {
+                alert("Lỗi: Dữ liệu đặt lịch không hợp lệ.");
+                return;
+            }
+
+            // Update the hidden input fields with the collected data
+            document.querySelector("input[name='UserId']").value = userId;
+            document.querySelector("input[name='RoomId']").value = roomId;
+            document.querySelector("input[name='TimeSlotId']").value = timeSlotId;
+            document.querySelector("input[name='PtEmail']").value = ptEmail; // Set PT's email
+            document.querySelector("input[name='TrainingDate']").value = trainingDate; // Set the current date
+
+            // Submit the form
+            document.getElementById("bookingForm").submit();
+
+            // Close the modal after submitting
+            $('#confirmBookingModal').modal('hide');
+        });
+
+
+</script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="Home/js/jquery-3.3.1.min.js"></script>

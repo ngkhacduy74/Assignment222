@@ -27,6 +27,13 @@
     <link rel="stylesheet" href="Home/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="Home/css/style.css" type="text/css">
     <style>
+        /* Dành cho các ô đã hết hạn (không thể chọn) */
+        .class-timetable td.disabled {
+            background-color: #d3d3d3; /* Màu xám nhạt */
+            color: #a0a0a0; /* Màu chữ nhạt đi */
+            cursor: not-allowed; /* Con trỏ sẽ không thể chọn */
+        }
+
         .class-timetable td {
         color: #ffffff; /* Màu trắng để chữ sáng hơn */
         font-weight: bold;
@@ -254,7 +261,7 @@
             <div class="row">
                 <div class="col-lg-12">
                    
-                    <div class="class-timetable">
+                    <div class="class-timetable disabled">
                         <table border="1">
                             <thead>
                                 <tr>
@@ -275,7 +282,7 @@
                                         <td class="clickable-room">
                                             <form method="post" action="/Class-details">
                                                 @Html.AntiForgeryToken()
-                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <input type="hidden" name="roomId" value="@room.RoomId-@(1)" />
                                                 <button type="submit" class="room-button">@room.RoomName</button>
                                             </form>
                                         </td>
@@ -288,7 +295,7 @@
                                         <td class="clickable-room">
                                             <form method="post" action="/Class-details">
                                                 @Html.AntiForgeryToken()
-                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <input type="hidden" name="roomId" value="@room.RoomId-@(2)" />
                                                 <button type="submit" class="room-button">@room.RoomName</button>
                                             </form>
                                         </td>
@@ -301,7 +308,7 @@
                                         <td class="clickable-room">
                                             <form method="post" action="/Class-details">
                                                 @Html.AntiForgeryToken()
-                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <input type="hidden" name="roomId" value="@room.RoomId-@(3)" />
                                                 <button type="submit" class="room-button">@room.RoomName</button>
                                             </form>
                                         </td>
@@ -314,7 +321,7 @@
                                         <td class="clickable-room">
                                             <form method="post" action="/Class-details">
                                                 @Html.AntiForgeryToken()
-                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <input type="hidden" name="roomId" value="@room.RoomId-@(4)" />
                                                 <button type="submit" class="room-button">@room.RoomName</button>
                                             </form>
                                         </td>
@@ -327,7 +334,7 @@
                                         <td class="clickable-room">
                                             <form method="post" action="/Class-details">
                                                 @Html.AntiForgeryToken()
-                                                <input type="hidden" name="roomId" value="@room.RoomId" />
+                                                <input type="hidden" name="roomId" value="@room.RoomId-@(5)" />
                                                 <button type="submit" class="room-button">@room.RoomName</button>
                                             </form>
                                         </td>
@@ -460,6 +467,44 @@
         function goToClassDetails(roomId) {
             window.location.href = "/Class-details?roomId=" + roomId;
         }
+    </script>
+    <script>
+                window.onload = function () {
+            // Lấy thời gian hiện tại
+            const currentTime = new Date();
+
+            // Mảng thời gian các khung giờ, với định dạng "HH:mm" (24 giờ)
+            const timeSlots = [
+                { slot: '6:00am - 8:00am', startTime: '06:00', endTime: '08:00' },
+                { slot: '8:30am - 10:30am', startTime: '08:30', endTime: '10:30' },
+                { slot: '2:00pm - 4:00pm', startTime: '14:00', endTime: '16:00' },
+                { slot: '4:30pm - 6:30pm', startTime: '16:30', endTime: '18:30' },
+                { slot: '7:00pm - 9:00pm', startTime: '19:00', endTime: '21:00' }
+            ];
+
+            // Duyệt qua các hàng trong bảng
+            const rows = document.querySelectorAll('.class-timetable tbody tr');
+
+            rows.forEach((row, index) => {
+                const startTime = timeSlots[index].startTime;
+                const endTime = timeSlots[index].endTime;
+
+                const startTimeObj = new Date();
+                const endTimeObj = new Date();
+
+                const [startHour, startMinute] = startTime.split(':');
+                const [endHour, endMinute] = endTime.split(':');
+
+                startTimeObj.setHours(startHour, startMinute, 0);
+                endTimeObj.setHours(endHour, endMinute, 0);
+
+                // Nếu thời gian hiện tại đã qua thời gian kết thúc của khung giờ, ẩn hàng đó
+                if (currentTime > endTimeObj) {
+                    row.style.display = "none"; // Ẩn hàng không còn hợp lệ
+                }
+            });
+        };
+
     </script>
 
     <script src="Home/js/jquery-3.3.1.min.js"></script>
