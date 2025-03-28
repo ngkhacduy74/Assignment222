@@ -840,9 +840,14 @@
                                                             <td>
                                                                 @if (@user.IsActive == false && @user.RoleId != 3)
                                                                 {
-                                                                    <button class="btn btn-danger btn-sm delete-btn" data-userid="@user.UserId">Delete</button>
+                                                                    <form method="post" action="/Admin?handle=DeleteUser" style="display:inline;">
+                                                                        @Html.AntiForgeryToken()
+                                                                        <input type="hidden" name="id" value="@user.UserId" />
+                                                                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                                                    </form>
                                                                 }
                                                             </td>
+
                                                         </tr>
                                                     }
                                                 }

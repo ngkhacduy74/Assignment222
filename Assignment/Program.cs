@@ -33,6 +33,9 @@ builder.Services.AddScoped<accountService>();
 builder.Services.AddScoped<roomService>();
 builder.Services.AddScoped<ptService>();
 builder.Services.AddScoped<timeSlotsService>();
+builder.Services.AddScoped<TrainerAvailableService>();
+builder.Services.AddScoped<roomScheduleService>();
+builder.Services.AddScoped<emailService>();
 
 // Cấu hình Razor Pages với các area
 builder.Services.AddRazorPages(options =>

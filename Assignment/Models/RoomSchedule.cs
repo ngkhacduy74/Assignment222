@@ -6,7 +6,7 @@ namespace Assignment.Models;
 public partial class RoomSchedule
 {
     public int ScheduleId { get; set; }
-
+    public int UserId { get; set; }
     public int RoomId { get; set; }
 
     public DateOnly TrainingDate { get; set; }

@@ -30,6 +30,15 @@
 </head>
 
 <body>
+    @{
+        var userId = HttpContext.Session.GetInt32("UserID") ?? 0; 
+    }
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -267,11 +276,11 @@
 
                 <form id="bookingForm" method="POST" action="/Gallery">
                      @Html.AntiForgeryToken()
-                    <input type="hidden" name="UserId" value="1"> <!-- User ID -->
-                    <input type="hidden" name="RoomId" value="@Model.Room.RoomId"> <!-- Room ID -->
-                    <input type="hidden" name="TimeSlotId" value="@Model.TimeSlotId"> <!-- Time Slot ID -->
-                    <input type="hidden" name="PtEmail" id="trainerEmailInput" value=""> <!-- Trainer Email -->
-                    <input type="hidden" name="TrainingDate" id="trainingDateInput" value="">
+                    <input type="hidden" name="UserId" value="@userId">
+                    <input type="hidden" name="RoomId" value="@Model.Room.RoomId">
+                    <input type="hidden" name="TimeSlotId" value="@Model.TimeSlotId"> 
+                    <input type="hidden" name="PtEmail" id="trainerEmailInput" value=""> 
+                    
 
                     <button type="submit" id="submitFormBtn" class="btn btn-primary">Submit</button>
                 </form>

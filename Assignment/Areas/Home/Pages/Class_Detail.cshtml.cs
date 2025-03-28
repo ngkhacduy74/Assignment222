@@ -9,13 +9,15 @@ namespace Assignment.Areas.Home.Pages
     {
         private readonly ptService _ptService;
         private readonly roomService _roomService;
+        private readonly TrainerAvailableService _trainerAvailableService;
 
         public List<PersonalTrainer> listPT { get; set; } = new List<PersonalTrainer>();
 
-        public Class_DetailModel(ptService ptService, roomService roomService)
+        public Class_DetailModel(ptService ptService, roomService roomService, TrainerAvailableService trainerAvailableService)
         {
             _ptService = ptService;
             _roomService = roomService;
+            _trainerAvailableService = trainerAvailableService;
         }
 
         [BindProperty(SupportsGet = true)] // ✅ Allow roomId to be received via GET request
@@ -34,18 +36,6 @@ namespace Assignment.Areas.Home.Pages
 
         [BindProperty]
         public int TimeSlotId { get; set; }
-
-        [BindProperty]
-        public DateTime TrainingDate { get; set; }
-
-        public class BookTrainerRequest
-        {
-            public int UserId { get; set; }
-            public int RoomId { get; set; }
-            public string PtEmail { get; set; }
-            public int TimeSlotId { get; set; }
-            public string TrainingDate { get; set; }
-        }
 
         public void OnGet()
         {
@@ -80,19 +70,6 @@ namespace Assignment.Areas.Home.Pages
             }
             Console.WriteLine("asssssssssssss");
             return RedirectToPage("/Class_Detail", new { area = "Home", roomId = roomId });
-        }
-
-        // Xử lý handler BookTrainer
-        public async Task<IActionResult> OnPostBookTrainer([FromBody] BookTrainerRequest request)
-        {
-            // Xử lý đặt lịch ở đây
-            if (ModelState.IsValid)
-            {
-                // Đặt phòng logic
-                // Lưu thông tin vào database hoặc thực hiện thao tác cần thiết
-                return new JsonResult(new { success = true, message = "Booking successful!" });
-            }
-            return new JsonResult(new { success = false, message = "Booking failed." });
         }
     }
 }

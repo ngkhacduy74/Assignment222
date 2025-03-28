@@ -250,14 +250,14 @@ public partial class PrivateGymDbContext : DbContext
                 .ValueGeneratedNever()
                 .HasColumnName("AvailabilityID");
             entity.Property(e => e.IsAvailable).HasDefaultValue(true);
-            entity.Property(e => e.PtEmail)
+            entity.Property(e => e.PT_Email)
                 .HasMaxLength(255)
                 .IsUnicode(false)
                 .HasColumnName("PT_Email");
             entity.Property(e => e.SlotId).HasColumnName("SlotID");
 
             entity.HasOne(d => d.PtEmailNavigation).WithMany(p => p.TrainerAvailabilities)
-                .HasForeignKey(d => d.PtEmail)
+                .HasForeignKey(d => d.PT_Email)
                 .HasConstraintName("FK__Trainer_A__PT_Em__6D0D32F4");
 
             entity.HasOne(d => d.Slot).WithMany(p => p.TrainerAvailabilities)

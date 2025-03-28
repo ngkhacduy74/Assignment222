@@ -40,7 +40,6 @@ namespace Assignment.Areas.Auth
         {
             Debug.WriteLine("Đăng nhập được gọi.");
 
-            // Authenticate account
             var account = _authService.Authenticate(Email, Password);
             if (account == null)
             {
@@ -48,10 +47,8 @@ namespace Assignment.Areas.Auth
                 return RedirectToPage("/Login");
             }
 
-            // Get user by email
             var user = _userService.getUserByEmail(account.Email);
 
-            // Serialize user object
             var options = new JsonSerializerOptions
             {
                 ReferenceHandler = ReferenceHandler.Preserve,
@@ -59,15 +56,14 @@ namespace Assignment.Areas.Auth
             };
             string userJson = JsonSerializer.Serialize(user, options);
 
-            // Store user info in session
             HttpContext.Session.SetString("success", userJson);
+            HttpContext.Session.SetInt32("UserID", user.UserId);
 
-            // Redirect based on user role
             return user.RoleId switch
             {
                 1 => RedirectToPage("/Home", new { area = "Home" }),
                 3 => RedirectToPage("/Admin", new { area = "Admin" }),
-                _ => RedirectToPage("/Login")  // Optional: Handle any other roles or unauthorized access
+                _ => RedirectToPage("/Login")
             };
         }
     }

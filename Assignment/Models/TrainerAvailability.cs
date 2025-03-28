@@ -7,7 +7,7 @@ public partial class TrainerAvailability
 {
     public int AvailabilityId { get; set; }
 
-    public string PtEmail { get; set; } = null!;
+    public string PT_Email { get; set; } = null!;
 
     public DateOnly TrainingDate { get; set; }
 

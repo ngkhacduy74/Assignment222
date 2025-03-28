@@ -66,6 +66,9 @@ namespace Assignment.Areas.Admin.Pages
             [Required]
             [BindProperty]
             public string Role { get; set; } = string.Empty;
+
+            [BindProperty]
+            public int UserId { get; set; }
         }
 
         [BindProperty]
@@ -152,7 +155,8 @@ namespace Assignment.Areas.Admin.Pages
                 return NotFound(new { message = "User not found" });
             }
             await _hubContext.Clients.All.SendAsync("UserDeleted", id);
-            return new JsonResult(new { success = true, message = "User deleted successfully", id });
+            Console.WriteLine("mmmmmm");
+            return RedirectToPage();
         }
     }
 }

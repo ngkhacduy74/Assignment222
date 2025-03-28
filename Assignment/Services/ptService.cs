@@ -18,13 +18,16 @@ namespace Assignment.Services
 
         public List<PersonalTrainer> GetPersonalTrainersIsAvailableOnTime(int timeslotId)
         {
-            return _context.PersonalTrainers
-        .Where(pt => _context.TrainerAvailabilities
-            .Any(ta => ta.PtEmail == pt.Email && ta.SlotId == timeslotId && ta.IsAvailable == true))
-        .ToList();
-        }
+            var availablePTEmails = _context.TrainerAvailabilities
+                .Where(ta => ta.SlotId == timeslotId && ta.IsAvailable == true)
+                .Select(ta => ta.PT_Email)  // Chọn chỉ có Email của PT
+                .ToList();
 
-        // sẽ lấy được id của time slot và sẽ kiểm tra xem trong bảng Room_Schedule thì đã có PT nào được book trong timelsot đó rồi
-        // Nếu chưa có ai thì sẽ hiển thị tất cả các PT , còn nếu có rồi thì sẽ trừ đi người đó để hiển thị
+            var availablePersonalTrainers = _context.PersonalTrainers
+                .Where(pt => !availablePTEmails.Contains(pt.Email))
+                .ToList();
+
+            return availablePersonalTrainers;
+        }
     }
 }
